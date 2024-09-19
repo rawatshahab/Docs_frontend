@@ -14,7 +14,7 @@ function Home() {
     const Id = uuid();
     setRoomId(Id);
     toast.success("Room Id is generated");
-    alert("please wait 40-50 seconds after generating room id as it is hosted on a free server");
+   
   };
 
   const joinRoom = () => {
