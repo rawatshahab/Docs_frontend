@@ -14,6 +14,7 @@ function Home() {
     const Id = uuid();
     setRoomId(Id);
     toast.success("Room Id is generated");
+        alert("Please wait 50 seconds after creating room ID as this application is hosted on Free hosting Website.");
    
   };
 
@@ -30,6 +31,7 @@ function Home() {
       },
     });
     toast.success("room is created");
+
   };
 
   // when enter then also join
