@@ -14,7 +14,7 @@ function Home() {
     const Id = uuid();
     setRoomId(Id);
     toast.success("Room Id is generated");
-        alert("Please retry creating room ID if it failed because this application may be inactive for a while");
+        alert("Please retry creating room ID if it failed because this application may be inactive for a while and wait for a second.");
    
   };
 
