@@ -14,7 +14,7 @@ function Home() {
     const Id = uuid();
     setRoomId(Id);
     toast.success("Room Id is generated");
-        alert("Please wait 50 seconds after creating room ID as this application is hosted on Free hosting Website.");
+        alert("Please retry creating room ID if it failed because this application may be inactive for a while");
    
   };
 
